@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="aboutme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img class="logo" src="imgs/myLogo.jpg" alt="n/a"
+        /></a>
+        <a class="name" href="index.html"> Pranav Rajeev</a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="">WORKS</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>About Me</h1>
+      </div>
+      <a class="aboutMeButton" href="#scrollAboutMe">Read</a>
+    </section>
+
+    <!---- Additional ---->
+
+    <section class="nextPage" id="scrollAboutMe">
+      <h1 class="aboutMeH1">About Me</h1>
+      <h2 class="schoolHeader">School Life</h2>
+      <img class="schoolImg" src="imgs/school.jpeg" />
+      <p class="schoolInfo">
+        I am currently in my final year of high school, grade 12. This year, I
+        have been preparing for my applications to different universities and
+        taking part in the four courses I have this semester: English,
+        Engineering Technology, Calculus and Vectors, and Computer Science.
+      </p>
+      <!-- <a class="hobbiesButton" href="#scrollHobbies">Scroll</a> -->
+    </section>
+
+    <section class="nextPage" id="scrollHobbies">
+      <h2 class="hobbiesHeader">My Hobbies</h2>
+      <p class="hobbiesInfo">
+        - Basketball <br />
+        - Chess <br />
+        - Coding <br />
+        - Guitar <br />
+        - Piano <br />
+        - Swimming
+      </p>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="imgs/basketball.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/chess.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/coding.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guitar.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/piano.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/swimming.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <!----JavaScript for Toggle Menu ---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

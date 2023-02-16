@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+@media (min-width: 1500px) {
+  .resumeButton {
+    color: white;
+    background-color: #04091e;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 10px;
+    top: 70%;
+    left: 47%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 5px solid;
+    border-color: #66fcf1;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .resumeButton:hover {
+    border-color: #38ccc2;
+    background-color: #38ccc2;
+    color: white;
+  }
+
+  .btn {
+    color: white;
+    background-color: #04091e;
+    border: 5px solid;
+    border-color: #66fcf1;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 10px;
+    top: 70%;
+    left: 54%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+  }
+
+  /* Darker background on mouse-over */
+  .btn:hover {
+    border-color: #38ccc2;
+    background-color: #38ccc2;
+    color: white;
+  }
+}
+@media (max-width: 800px) {
+  .resumeButton {
+    color: white;
+    background-color: #04091e;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 3px solid;
+    border-color: #66fcf1;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .resumeButton:hover {
+    border-color: #38ccc2;
+    background-color: #38ccc2;
+    color: white;
+  }
+
+  .btn {
+    color: white;
+    background-color: #04091e;
+    border: 3px solid;
+    border-color: #66fcf1;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 10px;
+    top: 78%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+  }
+
+  /* Darker background on mouse-over */
+  .btn:hover {
+    border-color: #38ccc2;
+    background-color: #38ccc2;
+    color: white;
+  }
+}
+
+@media (min-width: 800px) {
+  @media (max-width: 1000px) {
+    .resumeButton {
+      color: white;
+      background-color: #04091e;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 43%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .resumeButton:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+
+    .btn {
+      color: white;
+      background-color: #04091e;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 57%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  @media (max-width: 1200px) {
+    .resumeButton {
+      color: white;
+      background-color: #04091e;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 45%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .resumeButton:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+
+    .btn {
+      color: white;
+      background-color: #04091e;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 57%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  @media (max-width: 1350px) {
+    .resumeButton {
+      color: white;
+      background-color: #04091e;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 46%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .resumeButton:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+
+    .btn {
+      color: white;
+      background-color: #04091e;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 55%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+  }
+}
+
+@media (min-width: 1350px) {
+  @media (max-width: 1500px) {
+    .resumeButton {
+      color: white;
+      background-color: #04091e;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 45%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .resumeButton:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+
+    .btn {
+      color: white;
+      background-color: #04091e;
+      border: 5px solid;
+      border-color: #66fcf1;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 22px;
+      padding: 10px;
+      top: 70%;
+      left: 55%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      border-color: #38ccc2;
+      background-color: #38ccc2;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img class="logo" src="imgs/myLogo.jpg" alt="n/a"
+        /></a>
+        <a class="name" href="index.html"> Pranav Rajeev</a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="">WORKS</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Contact Me</h1>
+      </div>
+      <a class="ContactMeButton" href="#scrollContactMe">Scroll</a>
+    </section>
+
+    <!---- Additional ---->
+    <section class="contact" id="scrollContactMe">
+      <div class="content">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>123 Crescent Road</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>227-792-7975</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>pranraj2005@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form action="contact.php" method="post">
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="fromEmail" required="required" />
+              <span>From</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="subject" required="required" />
+              <span>subject</span>
+            </div>
+            <div class="inputBox">
+              <textarea name="message" required="required"></textarea>
+              <span>Type Your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="sendMailBtn" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!----JavaScript for Toggle Menu ---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

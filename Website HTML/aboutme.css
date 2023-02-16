@@ -1,0 +1,386 @@
+/* -------- About Me Page -------*/
+.aboutMeButton {
+  color: white;
+  background-color: #04091e;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 10px;
+  top: 70%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 5px solid;
+  border-color: #66fcf1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.aboutMeButton:hover {
+  border-color: #66fcf1;
+  background-color: #66fcf1;
+  color: #04091e;
+}
+
+/* .hobbiesButton {
+  color: white;
+  background-color: #04091e;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 10px; */
+/* margin: auto; */
+/* left: 50%;
+  right: 50%; */
+/* margin-left: auto;
+  margin-right: auto; */
+/* bottom: 0; */
+/* text-align: center;
+  position: absolute;
+  border: 5px solid;
+  border-color: #66fcf1;
+  border-radius: 10px;
+  cursor: pointer;
+} */
+
+/* .hobbiesButton:hover {
+  border-color: #66fcf1;
+  background-color: #66fcf1;
+  color: #04091e;
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Normal Page Size */
+@media (min-width: 800px) {
+  .nextPage {
+    height: 100vh;
+    width: 100%;
+    background-color: #04091e;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+
+  .aboutMeH1 {
+    color: white;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 45%;
+    position: relative;
+    width: 200px;
+    border: 5px solid;
+    border-color: #66fcf1;
+    top: 5%;
+    margin-bottom: 4%;
+  }
+
+  .schoolHeader {
+    color: white;
+    font-size: 32px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 14.5%;
+    margin-top: 7%;
+  }
+
+  .schoolImg {
+    margin-top: 3%;
+    width: 35vw;
+    float: left;
+    margin-left: 10%;
+    border: 5px solid;
+    border-color: #66fcf1;
+  }
+
+  .schoolInfo {
+    margin-top: 3%;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    float: right;
+    line-height: normal;
+    margin-right: 10%;
+    width: 35vw;
+    border: 5px solid;
+    border-color: #66fcf1;
+    word-wrap: break-word;
+  }
+
+  /* Hobbies Section */
+  .hobbiesHeader {
+    color: white;
+    font-size: 32px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 14.5%;
+  }
+
+  .hobbiesInfo {
+    margin-top: 3%;
+    color: white;
+    font-size: 27px;
+    text-align: left;
+    float: left;
+    line-height: 200%;
+    margin-left: 10%;
+    width: 35vw;
+    border: 5px solid;
+    border-color: #66fcf1;
+    word-wrap: break-word;
+  }
+
+  .swiper-slide img {
+    margin-top: 6%;
+    width: 35vw;
+    height: 340px;
+    float: right;
+    margin-right: 10%;
+    border: 5px solid;
+    border-color: #66fcf1;
+  }
+
+  /* Colour of icons < > .... */
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    margin-top: 0%;
+    /* float: right; */
+    margin-left: 2%;
+    width: 500px;
+    color: #66fcf1;
+  }
+  .swiper .swiper-pagination-bullet-active {
+    background: #66fcf1;
+  }
+}
+
+@media (min-width: 1600px) {
+  .nextPage {
+    height: 100vh;
+    width: 100%;
+    background-color: #04091e;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+
+  .aboutMeH1 {
+    color: white;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 45%;
+    position: relative;
+    width: 200px;
+    border: 5px solid;
+    border-color: #66fcf1;
+    top: 5%;
+    margin-bottom: 4%;
+  }
+
+  .schoolHeader {
+    color: white;
+    font-size: 32px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 14.5%;
+    margin-top: 3%;
+  }
+
+  .schoolImg {
+    margin-top: 3%;
+    height: 424px;
+    width: 650px;
+    float: left;
+    margin-left: 15%;
+    border: 5px solid;
+    border-color: #66fcf1;
+  }
+
+  .schoolInfo {
+    margin-top: 3%;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    float: right;
+    line-height: normal;
+    margin-right: 15%;
+    width: 380px;
+    border: 5px solid;
+    border-color: #66fcf1;
+    word-wrap: break-word;
+    /* padding: 10px; */
+  }
+  /* Hobbies Section */
+  .hobbiesHeader {
+    color: white;
+    font-size: 32px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 14.5%;
+    /* position: relative; */
+    /* top: 5%; */
+  }
+
+  .hobbiesInfo {
+    margin-top: 3%;
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    float: left;
+    line-height: 200%;
+    margin-left: 15%;
+    width: 380px;
+    border: 5px solid;
+    border-color: #66fcf1;
+    word-wrap: break-word;
+    /* padding: 10px; */
+  }
+
+  .hobbiesImg {
+    margin-top: 3%;
+    height: 424px;
+    float: right;
+    margin-right: 15%;
+    border: 5px solid;
+    border-color: #66fcf1;
+  }
+
+  .swiper-slide img {
+    margin-top: 4%;
+    width: 600px;
+    height: 424px;
+    float: right;
+    margin-right: 24%;
+    border: 5px solid;
+    border-color: #66fcf1;
+  }
+
+  /* Colour of icons < > .... */
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    margin-top: 0%;
+    /* float: right; */
+    margin-left: 2%;
+    width: 500px;
+    color: #66fcf1;
+  }
+  .swiper .swiper-pagination-bullet-active {
+    background: #66fcf1;
+  }
+}
+
+@media (max-width: 800px) {
+  .nextPage {
+    height: 100vh;
+    width: 100%;
+    background-color: #04091e;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+
+  .aboutMeH1 {
+    color: white;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    position: auto;
+    width: 200px;
+    border: 5px solid;
+    border-color: #66fcf1;
+    top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .schoolHeader {
+    color: white;
+    font-size: 32px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .schoolImg {
+    width: 90vw;
+    margin: auto;
+    border: 5px solid;
+    border-color: #66fcf1;
+    margin-bottom: 3%;
+  }
+
+  .schoolInfo {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: normal;
+    margin: auto;
+    width: 87vw;
+    border: 5px solid;
+    border-color: #66fcf1;
+    word-wrap: break-word;
+    padding: 10px;
+  }
+
+  /* Hobbies Section */
+  .hobbiesHeader {
+    color: white;
+    font-size: 32px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .hobbiesInfo {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    line-height: 200%;
+    width: 87vw;
+    border: 5px solid;
+    border-color: #66fcf1;
+    word-wrap: break-word;
+    padding: 10px;
+    margin-bottom: 3%;
+  }
+
+  .swiper-slide img {
+    width: 90vw;
+    margin: auto;
+    border: 5px solid;
+    border-color: #66fcf1;
+    margin-bottom: 3%;
+  }
+
+  /* Colour of icons < > .... */
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    margin-top: -5%;
+    margin: auto;
+    width: 15vw;
+    color: #66fcf1;
+  }
+  .swiper .swiper-pagination-bullet-active {
+    background: #66fcf1;
+    position: relative;
+    top: -70px;
+  }
+}
